@@ -29,7 +29,7 @@ main {
 }
 h2 {
   font-size: 25px;
-  border-bottom: dotted 3pxrgb(236, 122, 122);
+  border-bottom: dotted 3px rgb(236, 122, 122);
 }
 h2::before {
   content: "⚫︎";
@@ -57,7 +57,7 @@ a:hover {
   color: rgb(245, 178, 168);
 }
 @media screen and (max-width: 768px) {
-  h1 {
+  h2 {
     font-size: 30px;
   }
   p {
